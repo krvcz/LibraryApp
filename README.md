@@ -1,52 +1,60 @@
-# Skeleton Starter for Vaadin
 
-This project can be used as a starting point to create your own Vaadin application.
-It has the necessary dependencies and files to help you get started.
+<h1 align="center" id="title">LibraryApp</h1>
 
-The best way to use it is via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
-There is also a [getting started tutorial](https://vaadin.com/tutorials/getting-started-with-flow) based on this project.
+<p id="description">Project of the library managment system!</p>
 
-To access it directly from github, clone the repository and import the project to the IDE of your choice as a Maven project. You need to have Java 8 or 11 installed.
+<h2>🚀 Screenshots</h2>
 
-Run using `mvn jetty:run` and open [http://localhost:8080](http://localhost:8080) in the browser.
+![students tab](screenshots/zdj1.jpg)
 
-If you want to run your app locally in the production mode, run `mvn jetty:run -Pproduction`.
+![students add](screenshots/zdj2.jpg)
 
-### Running Integration Tests
+![book tab](screenshots/zdj3.jpg)
 
-Integration tests are implemented using [Vaadin TestBench](https://vaadin.com/testbench). The tests take a few minutes to run and are therefore included in a separate Maven profile. We recommend running tests with a production build to minimize the chance of development time toolchains affecting test stability. To run the tests using Google Chrome, execute
+![reservation add-empty](screenshots/zdj4.jpg)
 
-`mvn verify -Pit,production`
+![reservation add-filled](screenshots/zdj5.jpg)
 
-and make sure you have a valid TestBench license installed (you can obtain a 
-trial license from the [trial page](
-https://vaadin.com/trial)).
+![reservation tab](screenshots/zdj6.jpg)
 
-## Project structure
 
-The project follow Maven's [standard directory layout structure](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html):
-- Under the `srs/main/java` are located Application sources
-    - `AppShell.java` configures the @PWA annotation making the application 
-      installable
-    - `GreetService.java` is a service class
-    - `MainView.java` is an example Vaadin view
-- Under the `srs/test` are located the TestBench test files
-- `src/main/resources` contains configuration files and static resources
-- The `frontend` directory in the root folder contains client-side 
-  dependencies and resource files. Example CSS styles used by the application 
-  are located under `frontend/themes`
+<h2>🛠️ How to get started:</h2>
 
-## Useful links
+<p>1. Run using</p>
 
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorials at [vaadin.com/tutorials](https://vaadin.com/tutorials).
-- Watch training videos and get certified at [vaadin.com/learn/training]( https://vaadin.com/learn/training).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/components](https://vaadin.com/components).
-- Find a collection of solutions to common use cases in [Vaadin Cookbook](https://cookbook.vaadin.com/).
-- Find Add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin/).
+```
+mvn jetty:run
+```
 
-For a full Vaadin application example, there are more choices available also from [vaadin.com/start](https://vaadin.com/start) page.
+<p>2. Open [http://localhost:8080](http://localhost:8080) in the browser</p>
+
+ 
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Java 19
+*   Vaadin
+*   Maven 
+*   JUnit  5.9.0
+*   Mockito 4.9.0
+
+<h2>About me!</h2>
+<h1 align="center">Hi 👋, I'm Sebastian</h1>
+<h3 align="center">A passionate backend developer from Poland</h3>
+
+- 🌱 I’m currently learning **still Java and Spring ;)**
+
+- 👨‍💻 All of my projects are available at [my github repository](https://github.com/krvcz?tab=repositories)
+
+- 📫 How to reach me **sanko.sebastian@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/sebastian-sańko-94748320a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sebastian-sańko-94748320a" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
 
