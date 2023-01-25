@@ -5,17 +5,17 @@
 
 <h2>🚀 Screenshots</h2>
 
-![students tab](screenshots/zdj1.jpg)
+![students tab](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj1.PNG)
 
-![students add](screenshots/zdj2.jpg)
+![students add](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj2.PNG)
 
-![book tab](screenshots/zdj3.jpg)
+![book tab](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj3.PNG)
 
-![reservation add-empty](screenshots/zdj4.jpg)
+![reservation add-empty](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj4.PNG)
 
-![reservation add-filled](screenshots/zdj5.jpg)
+![reservation add-filled](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj5.PNG)
 
-![reservation tab](screenshots/zdj6.jpg)
+![reservation tab](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj6.PNG)
 
 
 <h2>🛠️ How to get started:</h2>
