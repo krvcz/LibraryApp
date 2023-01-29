@@ -1,7 +1,7 @@
 
 <h1 align="center" id="title">LibraryApp</h1>
 
-<p id="description">Project of the library managment system!</p>
+<p id="description">Project of the library managment system! It's a simple app where you can manage of students, books and reservations. In addition, thanks to the built-in mail service, LibraryApp deliver  email reminder of upcoming or missed deadlines</p>
 
 <h2>🚀 Screenshots</h2>
 
@@ -17,7 +17,6 @@
 
 ![reservation tab](https://github.com/krvcz/LibraryApp/blob/main/screenshots/zdj6.PNG)
 
-
 <h2>🛠️ How to get started:</h2>
 
 <p>1. Run using</p>
@@ -26,8 +25,11 @@
 mvn jetty:run
 ```
 
-<p>2. Open [http://localhost:8080](http://localhost:8080) in the browser</p>
+<p>2. Open in the browser</p>
 
+```
+http://localhost:8080
+```
  
 <h2>💻 Built with</h2>
 
